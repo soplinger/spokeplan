@@ -1,0 +1,29 @@
+# spokeplan example: two wheels in one file.
+# Values are illustrative, not vendor data. Use your hub and rim specs.
+# "left" is the non-drive side and "right" the drive side on a rear wheel.
+
+[rear 700c]
+erd = 597 mm
+spokes = 32
+cross_left = 3
+cross_right = 3
+offset_left = 31.0 mm
+offset_right = 16.0 mm
+flange_dia_left = 58 mm
+flange_dia_right = 58 mm
+rounding = up
+stock_step = 2 mm
+spoke_mass_g_per_m = 1.8
+
+[front 700c]
+erd = 597 mm
+spokes = 32
+cross_left = 0
+cross_right = 0
+offset_left = 34.0 mm
+offset_right = 34.0 mm
+flange_dia_left = 58 mm
+flange_dia_right = 58 mm
+rounding = up
+stock_step = 2 mm
+spoke_mass_g_per_m = 1.8
